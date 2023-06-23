@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  
+  <title>News homepage</title>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!-- Header Section Begins-->
+<section class="header">
+  <!-- Header logo -->
+  <div class="header_logo">
+    <!-- Header logo image -->
+    <img class="logo" src="assets/images/logo.svg" alt="Logo...">
+  </div>
+
+  <span onclick="openNav()">
+    <i class="uil uil-list-ul openbtn"></i>
+  </span>
+
+  <!-- Header Links -->
+  <div id="navbar" class="header_links navbar">
+    <a href="javascript:void(0)" class="closebtn" 
+            onclick="closeNav()">&times;
+    </a>
+
+    <a href="">Home</a>
+    <a href="">New</a>
+    <a href="">Popular</a>
+    <a href="">Trending</a>
+    <a href="">Categories</a>
+  </div>
+</section>
+<!-- Header Section Ends -->
+
+<!-- Hero Section begins -->
+<section class="hero">
+  <!-- Hero Body -->
+  <div class="hero_body">
+    <div class="hero_img">
+      <picture>
+        <source class="small-screen" srcset="/assets/images/image-web-3-mobile.jpg" media="(max-width: 600px)">
+        <source srcset="/assets/images/image-web-3-desktop.jpg">
+        <img height="300px" src="/assets/images/image-web-3-desktop.jpg" alt="Flowers" style="width:auto;">
+      </picture>
+    </div>
+  
+    <!-- Hero Body Content -->
+    <div class="hero_body-content">
+      <div class="hero_body-content-1">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="hero_body-content-2">
+        <p>
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+        </p>
+        <div class="hero_body-content-2-button">
+          <a href="#">Read more</a>
+        </div>  
+      </div>  
+    </div>    
+  </div>
+  
+  <!-- Hero Aside section -->
+  <div class="hero_aside">
+    <!-- Hero aside header -->
+    <div class="hero_aside-header">
+      <h2>New</h2>
+    </div>
+    <div class="hero_aside-subsect">
+      <h4>Hydrogen VS Electric Cars</h4>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p> 
+      <hr>
+      <h4>The Downsides of AI Artistry</h4>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+      <h4>Is VC Funding Drying Up?</h4>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>  
+  </div>  
+</section>
+<!-- Hero Section Ends -->
+
+<!-- Ads Section Begins -->
+<section class="advert">
+  <div class="advert_content item1">
+    <div class="advert_content-image">
+      <img src="assets/images/image-retro-pcs.jpg" height="150px" alt="">
+    </div>
+    <div class="advert_content-body">
+      <h3>01</h3>
+        <h4>Reviving Retro PCs</h4>
+        <h5>What happens when old PCs are given modern upgrades?</h5>
+    </div>
+  </div>
+  <div class="advert_content item2">
+    <div class="advert_content-image">
+      <img src="assets/images/image-top-laptops.jpg" height="150px" alt="">
+    </div>
+    <div class="advert_content-body">
+      <h3>02</h3>
+       <h4>Top 10 Laptops of 2022</h4> 
+       <h5>Our best picks for various needs and budgets.</h5>
+    </div>
+  </div>
+  <div class="advert_content item3">
+    <div class="advert_content-image">
+      <img src="assets/images/image-gaming-growth.jpg" height="150px" alt="">
+    </div>
+    <div class="advert_content-body">
+      <h3>03</h3>
+        <h4>The Growth of Gaming</h4>
+        <h5>How the pandemic has sparked fresh opportunities.</h5>
+    </div>
+  </div>  
+</section>
+<!-- Ads Section Ends -->
+ 
+<!-- Footer Begins -->
+<section class="footer">
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded with <span>❤</span> by <a href="#">Delz-create.</a> </p>
+  </div>
+</section>
+
+<script>
+  function openNav() {
+    document.getElementById("navbar").style.width = "75%";
+  }
+  
+  function closeNav() {
+    document.getElementById("navbar").style.width = "0";    
+  }
+</script>
+</body>
+</html>
